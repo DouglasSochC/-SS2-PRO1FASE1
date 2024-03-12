@@ -1,0 +1,8 @@
+Microsoft.SqlServer.Dts.Runtime.DtsRuntimeException: The connection "localhost.semi2_proyecto1_f2.sa" is not found. This error is thrown by Connections collection when the specific connection element is not found.
+ ---> System.Runtime.InteropServices.COMException: The connection "localhost.semi2_proyecto1_f2.sa" is not found. This error is thrown by Connections collection when the specific connection element is not found.
+
+   at Microsoft.SqlServer.Dts.Runtime.Wrapper.IDTSConnections100.get_Item(Object Key)
+   at Microsoft.SqlServer.Dts.Runtime.Connections.get_Item(Object index)
+   --- End of inner exception stack trace ---
+   at Microsoft.SqlServer.Dts.Runtime.Connections.get_Item(Object index)
+   at ST_8697d5b140fd4e11be66b673a8b82bed.ScriptMain.Main()
